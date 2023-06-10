@@ -42,7 +42,7 @@ Vue Test Utils 通常与一个测试工具配合使用。流行的测试工具�
 - [Cypress](https://cypress.io/). 基于浏览器，其支持 Vite, webpack。
 - [Playwright](https://playwright.dev/docs/test-components) (实验性)。基于浏览器, 支持 Vite。
 
-Vue Test Utils 是一个轻量级且无主见的库。对于功能更丰富，更符合人体工学已经更有主见的 For something more featureful, ergonomic and opinionated you may want to consider [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/overview) which has a hot reload development environment, or [Testing Library](https://testing-library.com/docs/vue-testing-library/intro/) which emphasizes accessability based selectors when making assertions. Both of these tools use Vue Test Utils under the hood and expose the same API.
+Vue Test Utils 是一个轻量级且无主见的库。要想功能更丰富，更符合人体工学已经更有主见的东西，你可能需要考虑 [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/overview)，它有一个热重载的开发环境，或者 [Testing Library](https://testing-library.com/docs/vue-testing-library/intro/) ，它在断言的时候基于选择器去强调可访问性。这些工具底层都是使用 Vue Test Utils 为底座并且暴露相同的 API。
 
 ## 下一步？
 
